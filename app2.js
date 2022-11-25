@@ -17,7 +17,7 @@ rl.question('What is your name? ', (name) => {
             if (isEmail(email)) {
                 console.log(`Your email is ${email}`);
             } else {
-                console.log(`${email}`, 'is wrong format for email!');
+                console.log(`'${email}'`, 'is wrong format for email!');
             }
 
             // jika format no hp sesuai maka akan menampilkan input
@@ -25,7 +25,7 @@ rl.question('What is your name? ', (name) => {
             if (isMobilePhone(phone, 'id-ID')) {
                 console.log(`Your phone is ${phone}`);
             } else {
-                console.log(`${phone}`, 'is wrong format for indonesian phone number!');
+                console.log(`'${phone}'`, 'is wrong format for indonesian phone number!');
             }
 
             // terimakasih dan tutup
