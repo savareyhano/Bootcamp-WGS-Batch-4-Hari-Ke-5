@@ -7,7 +7,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question('What is your name? ', (name) => {
+rl.question('What is your name?? ', (name) => {
     rl.question('What is your email? ', (email) => {
         rl.question('What is your phone number? ', (phone) => {
             console.log(`Your name is ${name}`);
